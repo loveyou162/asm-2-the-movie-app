@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar-movie,
+.navbar-search {
+  padding: 16px;
+}
+.navbar-movie {
+  color: rgb(216, 17, 17);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+/* Navbar mặc định */
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+/* Navbar khi cuộn xuống quá 100px */
+.navbar.scrolled {
+  background-color: black;
+}

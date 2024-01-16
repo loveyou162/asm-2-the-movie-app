@@ -1,0 +1,30 @@
+.search_results {
+  position: relative;
+  top: 150px;
+}
+.search_results h2 {
+  margin: 16px;
+}
+
+.search-img {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 24px;
+  margin: 16px;
+}
+
+.imageSearch {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.imageSearch:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.404);
+}
+
+.err {
+  text-align: center;
+}

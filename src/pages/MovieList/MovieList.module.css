@@ -1,0 +1,53 @@
+* {
+  color: #fff;
+}
+.Original {
+  position: relative;
+  bottom: 279px;
+  padding: 20px;
+}
+.title {
+}
+.imgBox {
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%;
+  /* height: 200px; */
+}
+.imgBox .imgOriginal {
+  width: 10%;
+  height: 30%;
+  margin: 16px 20px 16px 0;
+  display: inline-flex;
+  list-style: none;
+  transition: 0.3s ease;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.imgBox .imgOriginal:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.404);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+  transition: 0.3s;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(85, 85, 85);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #727272;
+}

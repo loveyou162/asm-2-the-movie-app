@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+.movie-detail {
+  padding: 24px;
+  display: grid;
+  height: 450px;
+  grid-template-columns: 50% 50%;
+  gap: 32px;
+  /* align-items: start; */
+  justify-items: center;
+  /* position: sticky;
+  bottom: 0; */
+  background-color: #000;
+  border-bottom: 1px solid #2b2a2a;
+  /* box-shadow: 0px -29px 12px -30px rgba(214, 214, 214, 0.79); */
+}
+
+.movie-info {
+  margin-left: 10%;
+}
+
+.movie-info .movie-vote,
+.movie-info h1 {
+  margin-bottom: 16px;
+}
+
+.movie-info h1 {
+  padding-bottom: 8px;
+  border-bottom: 3px solid #fff;
+}
+
+.trailer-yt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.vd-youtube {
+  width: 90%;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.poster {
+}
